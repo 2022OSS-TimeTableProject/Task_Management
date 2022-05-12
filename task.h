@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 typedef struct{
-    char className[10];
-    char date[10];
+    char className[30];
+    char date[30];
     int state;
 }Task;
 
@@ -15,8 +15,9 @@ int deleteTask(Task *t); // 과제 삭제
 void listTask(Task *t[], int count); //과제 목록 조회
 void readTask(Task t); // 과제 조회
 int selectDataNo(Task *t[], int count); // 과제 삭제나 수정 시에 과제 번호 선택
-void updateState(Task *t, int count); // 과제 상태 수정하기 (시작 전 : 1, 진행 중 : 2, 완료 : 3)
+void updateState(Task *t); // 과제 상태 수정하기 (시작 전 : 1, 진행 중 : 2, 완료 : 3)
 void saveData(Task *t[], int count); // 파일 저장
 int loadData(Task *t[]); // 파일 불러오기
 void searchClassName(Task *t[], int count); // 과제를 수업 이름으로 검색
 void searchDate(Task *t[], int count); // 과제를 마감기한으로 검색
+void searchState(Task *t[], int count); // 과제를 과제 상태로 검색
