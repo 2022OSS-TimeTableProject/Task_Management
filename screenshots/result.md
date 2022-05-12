@@ -4,7 +4,7 @@
 
 - selectMenu 함수는 함수가 구현될 때 반복문으로 실행되어 입력 받은 숫자에 해당하는 부분을 실행한다. addTask 함수는 새로운 과제를 추가하는 함수로 과목의 이름과 마감 기한, 과제의 상태를 새롭게 추가한다.
 
-![KakaoTalk_Photo_2022-05-09-18-59-40 001](https://user-images.githubusercontent.com/103631319/167388384-c53b1627-effa-48d9-893a-cf857fc5f87a.png)
+<img width="373" alt="스크린샷 2022-05-13 오전 2 50 17" src="https://user-images.githubusercontent.com/103631319/168138319-6c3cd701-34de-46a6-8b8c-1744269c1088.png">
 
 ---
 
@@ -12,7 +12,7 @@
 
 - listTask 함수는 함수 내에서 해당하는 과목의 정보를 불러와 출력하는 readTask 함수를 반복적으로 호출해 과제의 목록을 출력한다.
 
-![KakaoTalk_Photo_2022-05-09-18-59-41 002](https://user-images.githubusercontent.com/103631319/167388419-807e820c-fb5d-4d42-a4c2-a41e436cb9e6.png)
+<img width="325" alt="스크린샷 2022-05-13 오전 2 51 06" src="https://user-images.githubusercontent.com/103631319/168138420-d375cdf3-ee1b-4435-9796-54457244e4e2.png">
 
 ---
 
@@ -26,7 +26,7 @@
 
 - updateTask 함수는 과제의 이름과 마감 기한, 상태와 같은 과제 정보를 수정한다.
 
-![KakaoTalk_Photo_2022-05-09-18-59-41 003](https://user-images.githubusercontent.com/103631319/167388463-8751b58d-c31a-4ad7-b2e5-b1e80869fb71.png)
+<img width="372" alt="스크린샷 2022-05-13 오전 2 52 22" src="https://user-images.githubusercontent.com/103631319/168138490-222074bf-33fd-485f-864b-7a7daeee7c7e.png">
 
 ---
 
@@ -34,4 +34,43 @@
 
 - deleteTask 함수는 조회된 과제의 목록 중에 선택된 과제를 삭제한다.
 
-![KakaoTalk_Photo_2022-05-09-18-59-41 004](https://user-images.githubusercontent.com/103631319/167388473-161ba263-df17-45b5-a6ee-8e911b5f4958.png)
+<img width="324" alt="스크린샷 2022-05-13 오전 2 53 16" src="https://user-images.githubusercontent.com/103631319/168138519-3a5211eb-fd64-46af-b4ce-47509572f657.png">
+
+---
+
+## 6. updateState()
+
+<img width="428" alt="스크린샷 2022-05-13 오전 3 05 39" src="https://user-images.githubusercontent.com/103631319/168141227-555d3b58-1d01-4a84-9e05-cf43e2eec018.png">
+
+
+---
+
+## 7. saveData()
+
+<img width="175" alt="스크린샷 2022-05-13 오전 3 03 29" src="https://user-images.githubusercontent.com/103631319/168140986-1c297713-d0aa-43ef-8a04-28b8786188e4.png">
+<img width="273" alt="스크린샷 2022-05-13 오전 3 04 40" src="https://user-images.githubusercontent.com/103631319/168141078-4002175d-35f6-4eac-b444-45869788e39d.png">
+
+---
+
+## 8. loadData()
+
+<img width="325" alt="스크린샷 2022-05-13 오전 3 04 01" src="https://user-images.githubusercontent.com/103631319/168141025-35d5e2a2-1c6a-4028-baee-ade2c3e440f6.png">
+
+---
+
+## 9. searchClassName()
+
+<img width="298" alt="스크린샷 2022-05-13 오전 3 06 18" src="https://user-images.githubusercontent.com/103631319/168141262-bb4278dd-1721-47b4-992e-89c6376669b6.png">
+
+---
+
+## 10. searchDate()
+
+<img width="290" alt="스크린샷 2022-05-13 오전 3 06 49" src="https://user-images.githubusercontent.com/103631319/168141299-a1353495-2224-4e97-986e-98ed8c56dfa8.png">
+
+---
+
+## 11. searchState()
+
+<img width="408" alt="스크린샷 2022-05-13 오전 3 07 17" src="https://user-images.githubusercontent.com/103631319/168141327-20eb4dfb-e1d5-41eb-a724-66e8cc73052c.png">
+
