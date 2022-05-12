@@ -143,6 +143,7 @@ int loadData(Task *t[]){
     FILE *fp;
     if((fp = fopen("task.txt", "rt"))){
         for(i=0; i<20; i++){
+            t[i] = (Task *)malloc(sizeof(Task));
             fscanf(fp, "%s", t[i]->date);
             if(feof(fp)) break;
             fscanf(fp, "%d", &t[i]->state);
