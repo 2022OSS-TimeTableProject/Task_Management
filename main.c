@@ -15,6 +15,7 @@ int main(){
         menu = selectMenu();
         if (menu == 1){
             if(count > 0) listTask(tlist, index);
+            else printf("=> 조회된 과제 없음!\n");
         }
         else if (menu == 2){
             tlist[index] = (Task *)malloc(sizeof(Task));
