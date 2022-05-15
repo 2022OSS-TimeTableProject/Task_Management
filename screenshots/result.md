@@ -40,12 +40,16 @@
 
 ## 6. updateState()
 
+- updateState는 선택한 과제의 진행 상황을 번호로 선택하여 수정한다.
+
 <img width="428" alt="스크린샷 2022-05-13 오전 3 05 39" src="https://user-images.githubusercontent.com/103631319/168141227-555d3b58-1d01-4a84-9e05-cf43e2eec018.png">
 
 
 ---
 
 ## 7. saveData()
+
+- 추가된 과제의 목록을 task.txt 파일에 저장한다.
 
 <img width="175" alt="스크린샷 2022-05-13 오전 3 03 29" src="https://user-images.githubusercontent.com/103631319/168140986-1c297713-d0aa-43ef-8a04-28b8786188e4.png">
 <img width="273" alt="스크린샷 2022-05-13 오전 3 04 40" src="https://user-images.githubusercontent.com/103631319/168141078-4002175d-35f6-4eac-b444-45869788e39d.png">
@@ -54,11 +58,15 @@
 
 ## 8. loadData()
 
+- main 함수를 실행할 때 가장 먼저 호출되는 함수로 task.txt 파일에 저장된 과제의 목록을 불러온다.
+
 <img width="325" alt="스크린샷 2022-05-13 오전 3 04 01" src="https://user-images.githubusercontent.com/103631319/168141025-35d5e2a2-1c6a-4028-baee-ade2c3e440f6.png">
 
 ---
 
 ## 9. searchClassName()
+
+- 검색하고자 하는 과제의 이름을 입력해 일치하는 것이 없다면 아무것도 출력하지 않는다.
 
 <img width="298" alt="스크린샷 2022-05-13 오전 3 06 18" src="https://user-images.githubusercontent.com/103631319/168141262-bb4278dd-1721-47b4-992e-89c6376669b6.png">
 
@@ -66,11 +74,14 @@
 
 ## 10. searchDate()
 
+- 과제의 마감 기한을 입력해 일치하는 과제를 출력하고 일치하는 것이 없다면 아무것도 출력하지 않는다.
+
 <img width="290" alt="스크린샷 2022-05-13 오전 3 06 49" src="https://user-images.githubusercontent.com/103631319/168141299-a1353495-2224-4e97-986e-98ed8c56dfa8.png">
 
 ---
 
 ## 11. searchState()
 
-<img width="408" alt="스크린샷 2022-05-13 오전 3 07 17" src="https://user-images.githubusercontent.com/103631319/168141327-20eb4dfb-e1d5-41eb-a724-66e8cc73052c.png">
+- 과제의 상태를 나타내는 번호를 입력해 일치하는 과제를 출력하고 일치하는 것이 없다면 아무것도 출력하 않는다.
 
+<img width="408" alt="스크린샷 2022-05-13 오전 3 07 17" src="https://user-images.githubusercontent.com/103631319/168141327-20eb4dfb-e1d5-41eb-a724-66e8cc73052c.png">
